@@ -122,7 +122,7 @@ const { Qiwi } = require('node-qiwi-api');
 const qiwi = new Qiwi(qiwistr.split(" ")[1]);
 
 const Telegram = require('node-telegram-bot-api');
-const bot = new Telegram('1111', { polling: true });
+const bot = new Telegram('5061823214:AAHs9kMPoix4ajHxpn4-Bd16nIkVd9fcyHU', { polling: true });
 
 bot.getMe().then(r => console.log(r))
 
